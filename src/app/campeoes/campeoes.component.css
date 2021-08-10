@@ -1,0 +1,32 @@
+table {
+  width: 90%;
+  position: absolute;
+  z-index: 99;
+  margin-left: 7%;
+  background-color: white;
+  height: 70%;
+  border: 2px rgb(96, 62, 150) solid;
+}
+.botaoCampeoes {
+  float: right;
+  border-radius: 10px 20px;
+  color: rgb(96, 62, 150);
+  padding: 10px;
+  border: 1.5px solid rgb(96, 62, 150);
+}
+button {
+  float: right;
+  border-radius: 50%;
+  color: purple;
+  background-color: transparent;
+  border: 1px solid rgb(96, 62, 150);
+}
+.profile-first {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+th {
+  text-align: center;
+  font-size: 3vh;
+}

@@ -1,0 +1,23 @@
+table{
+  margin-bottom: 50px;
+}
+.profile-first{
+   height: 70px;
+  width: 70px;
+  border-radius: 20%;
+}
+
+#desafio-flag {
+  background: rgb(36,59,175);
+  background: linear-gradient(90deg, rgba(36,59,175,0.5) 15%, rgba(33,13,88,0.5) 77%, rgba(215,79,192,0.5) 100%);
+  position: fixed;
+  z-index: 30;
+  margin-left: -8px;
+  padding: 5px 5px 1px 5px;
+  border-radius: 0 10px 30px 0;
+}
+#desafio-flag > p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 7px;
+}

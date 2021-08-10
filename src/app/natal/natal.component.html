@@ -1,0 +1,53 @@
+<div id="container">
+  <div class="neve" [hidden]="carta">
+    <img
+      src="https://thumbs.gfycat.com/HeftyAstonishingCollardlizard-max-1mb.gif"
+    />
+  </div>
+  <div class="guirlanda">
+    <img
+      src="https://images.vexels.com/media/users/3/223074/isolated/preview/82737ff25549c02ac1dfba39df87982d-ilustra-ccedil-atilde-o-do-projeto-do-arco-da-guirlanda-de-natal-by-vexels.png"
+    />
+    <div><h2>GRUPO DOS DESENHISTAS</h2></div>
+    <img
+      src="https://images.vexels.com/media/users/3/223074/isolated/preview/82737ff25549c02ac1dfba39df87982d-ilustra-ccedil-atilde-o-do-projeto-do-arco-da-guirlanda-de-natal-by-vexels.png"
+    />
+  </div>
+  <div class="titulo">
+    <h1>
+      <img
+        src="https://cdn.icon-icons.com/icons2/1322/PNG/512/tree-2_86928.png"
+      />AMIGO SECRETO<img
+        src="https://cdn.icon-icons.com/icons2/1322/PNG/512/tree-2_86928.png"
+      />
+    </h1>
+  </div>
+
+  <div class="carta">
+    <input [(ngModel)]="codeSearch" #ctrl="ngModel" required />
+    <img
+      src="https://images.vexels.com/media/users/3/193680/isolated/preview/33b704110afb23c93c5b7dd1272345e0-bola-de-boneco-de-neve-plana-by-vexels.png"
+      (click)="searchPar()"
+      id="snowButton"
+    />
+
+    <div id="papaiNoel">
+      <img
+        src="https://cdn.icon-icons.com/icons2/1602/PNG/512/santaclaus_108480.png"
+        id="papaiNoelIcon"
+        [hidden]="carta"
+      />
+      <div class="participante" [hidden]="carta">
+        <span>{{ participantePar }}</span> foi uma ótima pessoa nesse ano. Seus
+        sonhos atuam de forma positiva ante seu comportamento. Você poderia
+        presentear com <span>{{ interesses[0]}}</span>,
+        <span>{{ interesses[1]}}</span>, <span>{{ interesses[2] }}</span> ou
+        tudo isso junto. Conto com VOCÊ para alegrar o natal dessa pessoinha!
+
+        <footer>
+          <p>FELIZ NATAL</p>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>

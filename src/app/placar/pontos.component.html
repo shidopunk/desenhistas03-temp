@@ -1,0 +1,19 @@
+<div id="desafio-flag">
+  <p>{{ _quantidade }}° Desafio</p>
+</div>
+<div [hidden]="firstPlace">
+  <h5>Primeiro Lugar</h5>
+  <table>
+    <tr>
+      <td><img [src]="_participantes[0].picture" class="profile-pic" /></td>
+      <td>{{ _participantes[0].name }}</td>
+      <td>{{ _participantes[0].points }}</td>
+      <td>
+        <img
+          src="https://img-premium.flaticon.com/png/512/1734/premium/1734190.png?token=exp=1626440146~hmac=d6e9280efb9dbb99e61d4e2b49361ee5"
+          class="profile-first"
+        />
+      </td>
+    </tr>
+  </table>
+</div>

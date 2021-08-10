@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.titulo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Mountains of Christmas", cursive;
+}
+.titulo > h1 > img {
+  height: 50px;
+  width: 40px;
+}
+input {
+  background-color: transparent;
+  color: rgb(102, 168, 86);
+  border-width: 0 0 3px 0;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 99;
+}
+#snowButton {
+  height: 80px;
+  width: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 99;
+}
+#snowButton:active {
+  height: 60px;
+  width: 60px;
+}
+.carta {
+  display: grid;
+}
+#container {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  margin-left: -10px;
+  position: absolute;
+}
+#papaiNoel {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+#papaiNoelIcon {
+  height: 40px;
+  width: 40px;
+}
+#balao {
+  height: 60%;
+  width: 50%;
+}
+.participante {
+  text-align: center;
+  float: right;
+  margin-left: 10px;
+  font-family: "Comic Sans", cursive;
+  font-size: 3vh;
+}
+span {
+  color: rgb(71, 71, 160);
+}
+
+.guirlanda > img {
+  height: 80px;
+  width: 80px;
+}
+.guirlanda > img:first-child {
+  float: right;
+}
+.guirlanda > div {
+  position: absolute;
+  width: 100%;
+}
+.guirlanda > div > h2 {
+  font-size: 2vh;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Mountains of Christmas", cursive;
+}
+footer {
+  position: relative;
+  bottom: 0%;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer > p {
+  text-align: center;
+  font-family: "Mountains of Christmas", cursive;
+  color: rgba(218, 218, 74, 0.979);
+  font-size: 7vh;
+}
+.neve {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.neve > img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}

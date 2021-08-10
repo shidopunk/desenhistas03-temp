@@ -1,0 +1,28 @@
+<div>
+  <button class="botaoCampeoes" (click)="abrirTabela()">Campeões</button>
+</div>
+
+<div [hidden]="tabela">
+  <table>
+    <thead>
+      <tr>
+        <th colspan="5">Campeões</th>
+        <button (click)="fecharTabela()">X</button>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let artista of campeoes">
+        <td>
+          <img
+            [src]="artista.trophy"
+            class="profile-first"
+          />
+        </td>
+        <td>{{ artista.season}}° Temporada</td>
+        <td><img [src]="artista.picture" class="profile-first" /></td>
+        <td>{{ artista.name }}</td>
+        <td>{{ artista.points }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

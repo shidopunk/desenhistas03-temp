@@ -1,0 +1,8 @@
+<app-bootstrap></app-bootstrap>
+<input placeholder='Nome de usuario'  type="text" [(ngModel)]='valor'  />
+<button (click)="tamanho(valor)" title="smaller">Logar</button>
+
+<div [style.display]='display'>
+	<h3>{{ profile }}</h3>
+	<img [src]='picture' class='profile-pic' />
+</div>

@@ -1,0 +1,23 @@
+<div class="container">
+	<table>
+		<thead>
+			<tr>
+				<td></td>
+				<td>NAME</td>
+				<td>VICTORY</td>
+				<td>POINTS</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr *ngFor="let artistas of _participantes">
+				<td>
+					<div id="events">{{ artistas.events }}</div>
+					<img [src]="artistas.picture" class="profile-pic"/>
+				</td>
+				<td>{{ artistas.name | uppercase }}</td>
+				<td>{{ artistas.victory }}</td>
+				<td>{{ artistas.points }}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
